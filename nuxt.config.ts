@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt/config';
 import fs from 'fs';
 import { createHash } from 'crypto';
 
-const baseUrl = '/chart-race';
+const baseUrl = '/';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
