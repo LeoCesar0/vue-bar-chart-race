@@ -1,0 +1,1 @@
+import{_ as t,v as a,L as n,t as o}from"./BIGlh93w.js";const s={},c={class:"container",id:"layout-container"};function r(e,d){return o(),a("div",c,[n(e.$slots,"default",{},void 0)])}const f=t(s,[["render",r],["__scopeId","data-v-61f4fb6a"]]);export{f as default};
