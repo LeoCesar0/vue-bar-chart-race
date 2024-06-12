@@ -1,0 +1,106 @@
+@use 'sass:math';
+
+$xsScreen: 330px;
+$smScreen: 550px;
+$mdScreen: 850px;
+$lgScreen: 1200px;
+$xlScreen: 1600px;
+
+@function pxsToRem($value) {
+	$remValue: math.div($value, 16) * 1rem;
+	@return $remValue;
+}
+
+@mixin ellipsis() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	-webkit-line-clamp: 1;
+}
+
+@mixin flexCenter() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// --------------------------
+// BREAK POINTS
+// --------------------------
+
+@mixin breakPointUp($breakPoint) {
+	@media (min-width: $breakPoint) {
+		@content;
+	}
+}
+
+@mixin breakPointDown($breakPoint) {
+	@media (max-width: $breakPoint) {
+		@content;
+	}
+}
+
+// --------------------------
+// LG
+// --------------------------
+
+@mixin onLgUp() {
+	@media (min-width: $lgScreen) {
+		@content;
+	}
+}
+
+@mixin onLgDown() {
+	@media (max-width: $lgScreen) {
+		@content;
+	}
+}
+
+// --------------------------
+// MD
+// --------------------------
+
+@mixin onMd() {
+	@media (min-width: $smScreen) and (max-width: $mdScreen) {
+		@content;
+	}
+}
+
+@mixin onMdUp() {
+	@media (min-width: $mdScreen) {
+		@content;
+	}
+}
+
+@mixin onMdDown() {
+	@media (max-width: $mdScreen) {
+		@content;
+	}
+}
+
+// --------------------------
+// SM
+// --------------------------
+
+@mixin onSmUp() {
+	@media (min-width: $smScreen) {
+		@content;
+	}
+}
+
+@mixin onSmDown() {
+	@media (max-width: $smScreen) {
+		@content;
+	}
+}
+
+// --------------------------
+// XS
+// --------------------------
+
+@mixin onXsDown() {
+	@media (max-width: $xsScreen) {
+		@content;
+	}
+}

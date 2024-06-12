@@ -1,0 +1,67 @@
+@forward './variables.scss';
+@forward './utils.scss';
+@import './fonts';
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	font-family: FolhaGrafico, 'FolhaGrafico', Helvetica, Arial;
+
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+
+	font-weight: 400;
+}
+
+body,
+html {
+	color: $onBackgroundColor;
+	font-size: $baseFontSize;
+}
+
+input::placeholder,
+select::placeholder {
+	color: $mutedColor;
+	font-size: $inputFontSize;
+}
+
+// --------------------------
+// RESETS
+// --------------------------
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+button {
+	background-color: transparent;
+}
+
+button:not([disabled]) {
+	cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+	cursor: not-allowed;
+}
+
+button,
+input {
+	background-color: transparent;
+}
+
+// --------------------------
+// FOCUS
+// --------------------------
+
+*:focus-within {
+	outline-color: $defaultFocus;
+	outline-width: 1px;
+}

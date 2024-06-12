@@ -1,0 +1,60 @@
+// --------------------------
+// Sizes
+// --------------------------
+
+$baseFontSize: 16px;
+
+$containerMaxWidth: 630px;
+$containerPaddingX: 0;
+$containerPaddingY: 0;
+
+$inputPadding: 0;
+$inputContainerPadding: 8px;
+$inputFontSize: 1rem;
+
+$selectItemHeight: 40px;
+
+$shadowFocusSize: 3px;
+
+// --------------------------
+// Colors
+// --------------------------
+$brandColor: #0078a4;
+$brandLightColor: #c0dee9;
+
+$backgroundColor: #ffffff;
+$onBackgroundColor: #333;
+
+$primaryColor: #00a8bf;
+$onPrimaryColor: #ffffff;
+$primaryColorHover: rgba($primaryColor, 0.25);
+$primaryColorFocus: rgba($primaryColor, 0.5);
+
+$secondaryColor: #3db27c;
+$onSecondaryColor: #fff;
+$secondaryColorHover: rgba($secondaryColor, 0.25);
+$secondaryColorFocus: rgba($secondaryColor, 0.5);
+
+$tertiaryColor: #0075c0;
+$onTertiaryColor: #fff;
+$tertiaryColorHover: rgba($tertiaryColor, 0.25);
+$tertiaryColorFocus: rgba($tertiaryColor, 0.5);
+
+$fourthColor: #344a77;
+$onFourthColor: #fff;
+$fourthColorHover: rgba($fourthColor, 0.25);
+$fourthColorFocus: rgba($fourthColor, 0.5);
+
+$dangerColor: #d60000;
+$onDangerColor: #fff;
+$dangerColorFocus: rgba($dangerColor, 0.5);
+
+$surfaceColor: #6a6c70;
+$onSurfaceColor: #ffffff;
+
+$borderColor: #e0e0e0;
+
+$mutedColor: #c3c8ce;
+$mutedDarkColor: #757575;
+
+$defaultFocus: rgba(51, 51, 51, 0.5);
