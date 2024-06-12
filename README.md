@@ -10,7 +10,7 @@ This project is a study on creating a dynamic Bar Chart Race using Vue.js and D3
 
 ## Demo
 
-[Link to live demo](#)
+[Link to live demo](https://leocesar0.github.io/vue-bar-chart-race/)
 
 ## Features
 
