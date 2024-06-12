@@ -28,8 +28,8 @@ const k = 10;
 
 const height = marginTop + barSize * n + marginBottom;
 
-function formatDate() {
-	return d3.utcFormat('%Y');
+function formatDate(date) {
+	return `${date.getMonth() + 1}/${date.getFullYear()}`;
 }
 
 function _color() {

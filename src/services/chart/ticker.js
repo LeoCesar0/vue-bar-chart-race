@@ -3,8 +3,8 @@ import { width, marginTop, barSize, keyframes, formatDate, n } from './constants
 export default function ticker(svg) {
 	const now = svg
 		.append('text')
-		.style('font', `bold ${barSize}px var(--sans-serif)`)
-		.style('font-variant-numeric', 'tabular-nums')
+		.style('font-weight', `semi-bold`)
+		.style('font-size', `${32}px `)
 		.attr('text-anchor', 'end')
 		.attr('x', width - 6)
 		.attr('y', marginTop + barSize * (n - 0.45))
