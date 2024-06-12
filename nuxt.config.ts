@@ -1,9 +1,7 @@
 import { resolve } from 'path';
 import { defineNuxtConfig } from 'nuxt/config';
-import fs from 'fs';
-import { createHash } from 'crypto';
 
-const baseUrl = '/';
+const baseUrl = '/vue-bar-chart-race/';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
