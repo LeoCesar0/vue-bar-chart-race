@@ -1,6 +1,5 @@
 @forward './variables.scss';
 @forward './utils.scss';
-@import './fonts';
 
 *,
 *::after,
@@ -8,8 +7,6 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-
-	font-family: FolhaGrafico, 'FolhaGrafico', Helvetica, Arial;
 
 	list-style: none;
 	text-decoration: none;
