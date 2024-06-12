@@ -48,7 +48,6 @@
     "d3": "^7.9.0",
     "fs-extra": "^11.2.0",
     "pinia": "^2.1.7",
-    "replace-in-file": "^7.1.0",
-    "v-money3": "^3.24.1"
+    "replace-in-file": "^7.1.0"
   }
 }
